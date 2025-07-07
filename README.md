@@ -39,21 +39,6 @@ A **GenAI-powered Retrieval-Augmented Generation (RAG) chatbot** that uses the o
 
 ---
 
-## ⚙️ Installation
-
-> ✅ Python 3.10+ recommended
-
-```bash
-# Create and activate a virtual environment (optional)
-python -m venv venv
-source venv/bin/activate  # or venv\\Scripts\\activate on Windows
-
-# Install dependencies
-pip install -r requirements.txt
-
-streamlit run app.py
-
----
 
 ## 📦 Dependencies
 See requirements.txt. Key packages:
@@ -68,18 +53,27 @@ huggingface_hub
 
 ---
 
+
 🧪 LLM + RAG Flow
 
 PDF ➜ Split Pages ➜ FAISS Vector Store ➜ HuggingFace Embeddings
         ⇩                       ⇩
   Query Box → LangChain RAG → BioMistral LLM → Answer
 
+---
+
 📜 License
+
 This project is intended for educational and research use only. Please consult healthcare professionals before taking any action based on generated answers.
 
+---
+
 🙋‍♂️ Author
+
 Akib Javith V S T
+
 Data Scientist | GenAI Explorer
-LinkedIn | GitHub | HuggingFace
+
+[LinkedIn](https://www.linkedin.com/in/akib-javith-37bbbb324/) | [GitHub](https://github.com/aquib-javed7) | [HuggingFace](https://huggingface.co/aquibjaved7)
 
 
